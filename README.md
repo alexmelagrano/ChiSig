@@ -3,6 +3,18 @@
 Code for the homepage of Chi Sigma -> info@chisigma.co
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <h2>Footer</h2><h3>-------------------------------------------------------------------------------</h3>
 # [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
 
