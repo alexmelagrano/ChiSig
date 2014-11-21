@@ -121,19 +121,21 @@ a:focus {
     color: white;
     display: block;
     float: left;
-    font-size: .84em;
+    font-size: 1.1em;
     text-align: justify;
 }
 
 .chi-sig-member-info {
     float: left;
     width: 65%;
-    text-overflow: inherit
+    text-overflow: inherit;
+    padding-top: 11%;
 }
 
 .chi-sig-member-image {
     float: left;
-    max-width: 250px;
+    height: 100%;
+    max-width: 300px;
     margin-right 3%;
     padding: 2%;
     width: 35%;
@@ -341,7 +343,6 @@ color: #fff;
         margin-top: 250px;
     }
     .chi-sig-member {
-    float: left;
     margin-bottom: 0px;
     width: 48%;
     margin-right: 2%;
