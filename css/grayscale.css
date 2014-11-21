@@ -155,6 +155,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
+   
 }
 
 .intro {
@@ -347,12 +348,6 @@ color: #fff;
     margin-bottom: 0px;
     margin-right: 2%;
     }
-    
-    .chi-sig-member-info {
-    float: left;
-    width: 65%;
-    text-overflow: inherit;
-    }
 }
 
 .btn {
@@ -397,6 +392,12 @@ ul.banner-social-buttons {
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+    }
+    .chi-sig-member-info {
+    float: left;
+    width: 65%;
+    text-overflow: inherit;
+    padding-top: 3%;
     }
 }
 
