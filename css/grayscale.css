@@ -331,7 +331,7 @@ color: #fff;
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 115px;
+        padding-top: 185px;
     }
 
     .members-section {
@@ -344,7 +344,6 @@ color: #fff;
     }
     .chi-sig-member {
     margin-bottom: 0px;
-    width: 48%;
     margin-right: 2%;
     }
 }
