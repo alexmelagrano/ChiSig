@@ -127,7 +127,7 @@ a:focus {
     display: block;
     float: left;
     font-size: 1.1em;
-    text-align: justify;
+    text-align: -webkit-auto;
 }
 
 
