@@ -1,0 +1,52 @@
+/* 
+
+Includes the custom CSS styling for the website's members, events, and about pages.
+
+*/
+
+/* Members Page
+================================== */
+
+/* Photos */
+.mdl-card__title {
+    background-color: none;
+}
+
+.alex {  background-image: url("img/profiles/melagrano-a.jpg")  }
+.jon {  background-image: url("img/profiles/northcott-j.jpg")  }
+.zach {  background-image: url("img/profiles/lowen-z.jpg")  }
+.rag {  background-image: url("img/profiles/narayan-r.jpg")  }
+.ty {  background-image: url("img/profiles/coghlan-jpg")  }
+.dan {  background-image: url("img/profiles/litchmore-d.jpg")  }
+.eli {  background-image: url("img/profiles/foreman-e.jpg")  } 
+
+
+.card-col {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    align-content: center;
+}
+.mdl-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+
+@media (min-width: 900px) {
+    .mdl-card {
+        max-width: 800px
+    }
+    .mdl-card__title {
+        max-width: 400px;
+        display: inline;
+        float: left;
+    }
+    .mdl-card__content {
+        max-width: 300px;
+        display: inline;
+        float: right;
+    }
+    
+}
