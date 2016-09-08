@@ -7,6 +7,13 @@ Includes the custom CSS styling for the website's members, events, and about pag
 /* Members Page
 ================================== */
 
+#members {
+    background:
+        linear-gradient(135deg, #ffffff 22px, #efefef 22px, #efefef 24px, transparent 24px, transparent 67px, #efefef 67px, #efefef 69px, transparent 69px),
+        linear-gradient(225deg, #ffffff 22px, #efefef 22px, #efefef 24px, transparent 24px, transparent 67px, #efefef 67px, #efefef 69px, transparent 69px)0 64px;
+    background-color:#ffffff;
+    background-size: 64px 128px
+}
 /* Photos */
 .mdl-card__title {
     background-color: none;
@@ -20,7 +27,23 @@ Includes the custom CSS styling for the website's members, events, and about pag
 .dan {  background-image: url("img/profiles/litchmore-d.jpg")  }
 .eli {  background-image: url("img/profiles/foreman-e.jpg")  } 
 
+.dummy-image {
+    background: url(http://dummyimage.com/400x700/aaa/fff&amp;text=filler-image.jpg);
+    height: 100%;
+    width: 100%;
+    max-width: 400px
+}
 
+.flex-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
 .card-col {
     width: 90%;
     max-width: 900px;
@@ -29,23 +52,35 @@ Includes the custom CSS styling for the website's members, events, and about pag
 }
 .mdl-card {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     margin: 25px auto;
 }
-
+.mdl-card__tag {
+    padding: 10px 20px;
+    font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    color: #d61313;
+}
+.mdl-card__title-text {
+    color: #ffffff;
+    padding-top: 100%
+}
 
 @media (min-width: 900px) {
     .mdl-card {
-        max-width: 800px
+        max-width: 700px
     }
     .mdl-card__title {
         max-width: 400px;
-        display: inline;
+        display: inline-block;
         float: left;
+    }
+    .mdl-card__title-text {
+        color: #ffffff;
     }
     .mdl-card__content {
         max-width: 300px;
-        display: inline;
+        display: inline-block;
         float: right;
     }
     
