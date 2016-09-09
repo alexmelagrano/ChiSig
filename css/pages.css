@@ -30,13 +30,13 @@ Includes the custom CSS styling for the website's members, events, and about pag
     background-color: none;
 }
 
-.alex {  background-image: url("img/profiles/melagrano-a.jpg")  }
-.jon {  background-image: url("img/profiles/northcott-j.jpg")  }
-.zach {  background-image: url("img/profiles/lowen-z.jpg")  }
-.rag {  background-image: url("img/profiles/narayan-r.jpg")  }
-.ty {  background-image: url("img/profiles/coghlan-jpg")  }
-.dan {  background-image: url("img/profiles/litchmore-d.jpg")  }
-.eli {  background-image: url("img/profiles/foreman-e.jpg")  } 
+.alex {  background-image: url("../img/profiles/melagrano-a.jpg")  }
+.jon {  background-image: url("../img/profiles/northcott-j.jpg")  }
+.zach {  background-image: url("../img/profiles/lowen-z.jpg")  }
+.rag {  background-image: url("../img/profiles/narayan-r.jpg")  }
+.ty {  background-image: url("../img/profiles/coghlan-t.jpg")  }
+.dan {  background-image: url("../img/profiles/litchmore-d.jpg")  }
+.eli {  background-image: url("../img/profiles/foreman-e.jpg")  }
 
 .dummy-image {
     background: url(http://dummyimage.com/400x700/aaa/fff&amp;text=filler-image.jpg);
