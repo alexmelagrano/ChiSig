@@ -3,6 +3,48 @@
 Includes the custom CSS styling for the website's members, events, and about pages.
 
 */
+@font-face {
+  font-family: 'CircularBold';
+  src: url('../fonts/CircularStd-Bold.woff') format('woff2');
+}
+@font-face {
+  font-family: 'CircularStd';
+  src: url('../fonts/CircularStd-Book.woff') format('woff2');
+}
+
+/* About Page
+================================== */
+
+.about-page {
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 10%, transparent),
+    radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 10%, transparent) 50px 50px,
+    linear-gradient(#f7f7f7 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #f7f7f7 8px, transparent 8px) -4px 0;
+    background-color: #ffffff;
+    background-size:100px 100px,
+    100px 100px,
+    50px 50px,
+    50px 50px;
+}
+
+#about {
+    text-align: left;
+}
+
+
+
+h2 {
+    font-size: 62px;
+    letter-spacing: 4px;
+    padding-bottom: 40px;
+    font-family: 'CircularBold', Helvetica, sans-serif;
+}
+
+#about p {
+    font-family: "CircularStd", Helvetical, sans-serif;
+    letter-spacing: .4px;
+}
+
 
 /* Members Page
 ================================== */
