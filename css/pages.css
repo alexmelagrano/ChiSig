@@ -12,6 +12,8 @@ Includes the custom CSS styling for the website's members, events, and about pag
   src: url('../fonts/CircularStd-Book.woff') format('woff2');
 }
 
+
+
 /* About Page
 ================================== */
 
@@ -85,6 +87,10 @@ Includes the custom CSS styling for the website's members, events, and about pag
         left: -150px
     }
 }
+
+
+
+
 /* Members Page
 ================================== */
 

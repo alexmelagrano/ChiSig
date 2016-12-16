@@ -19,6 +19,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #f00;
+    
 }
 
 html {
@@ -122,6 +123,15 @@ a:focus {
     color: #efefef;
     background-color: rgba(255,0,0,.5);
 }
+
+#about {
+    background: linear-gradient(-45deg, white 25%, transparent 25%, transparent 75%, #f4f4f4 75%, #f4f4f4) 0 0,
+    linear-gradient(-45deg, #f4f4f4 25%, transparent 25%, transparent 75%, white 75%, white) 1em 1em,
+    linear-gradient(45deg, #f4f4f4 17%, transparent 17%, transparent 25%, #f4f4f4 25%, #f4f4f4 36%, transparent 36%, transparent 64%, #f4f4f4 64%, #f4f4f4 75%, transparent 75%, transparent 83%, #f4f4f4 83%) 1em 1em;
+    background-color: white;
+    background-size: 2em 2em;
+}
+/* TODO :: MOVE THIS SHIT TO THE PAGES.CSS FILE */
 
 .chi-sig-member h4 {
     color: white;
