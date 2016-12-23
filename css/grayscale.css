@@ -6,7 +6,6 @@ Start Aquarelle-specific styles
 
 #spacer {
     height: 100%;
-    background-image: url(/img/intro-bg.jpg);
 }
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
@@ -124,12 +123,22 @@ a:focus {
     background-color: rgba(255,0,0,.5);
 }
 
-#about {
+.index-about-wrapper {
     background: linear-gradient(-45deg, white 25%, transparent 25%, transparent 75%, #f4f4f4 75%, #f4f4f4) 0 0,
     linear-gradient(-45deg, #f4f4f4 25%, transparent 25%, transparent 75%, white 75%, white) 1em 1em,
     linear-gradient(45deg, #f4f4f4 17%, transparent 17%, transparent 25%, #f4f4f4 25%, #f4f4f4 36%, transparent 36%, transparent 64%, #f4f4f4 64%, #f4f4f4 75%, transparent 75%, transparent 83%, #f4f4f4 83%) 1em 1em;
     background-color: white;
     background-size: 2em 2em;
+    width: 100% !important;
+    margin: 0 !important;
+}
+.index-about {
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient( to top, transparent, white 90%);
+}
+.index-about h2 {
+    padding-top: 50px;
 }
 /* TODO :: MOVE THIS SHIT TO THE PAGES.CSS FILE */
 
