@@ -202,7 +202,7 @@
     var icons = Array.prototype.slice.call(document.querySelectorAll('.icon'));
 
     var image = document.getElementById('aquarelle_img');
-    var aquarelle = new Aquarelle('img/crest.png', 'img/mask.png', {
+    var aquarelle = new Aquarelle('img/crest-bg-white.png', 'img/mask.png', {
         autoplay: true,
         loop: false,
         // Controls the swirl/distortion
@@ -279,7 +279,7 @@
     </div>
     
     <!-- Members Section -->
-    <section id="members" class="content-section text-center">
+    <section id="index-members" class="content-section text-center">
         <div class="members-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -317,13 +317,13 @@
                     </p>
                     <ul class="list-inline banner-social-buttons">
                          <li>
-                             <a href="https://twitter.com/chisigma_neu" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                             <a href="https://twitter.com/chisigma_neu" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                          </li>
                          <li>
-                             <a href="https://www.facebook.com/chisigma" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                             <a href="https://www.facebook.com/chisigma" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                          </li>
                          <li>
-                             <a href="mailto:info@chisigma.co" class="btn btn-default btn-lg"><i class="fa fa-mail-reply fa-fw"></i> <span class="network-name">E-mail</span></a>
+                             <a href="mailto:info@chisigma.co" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-mail-reply fa-fw"></i> <span class="network-name">E-mail</span></a>
                          </li>
                      </ul>
                 </div>
@@ -334,24 +334,26 @@
 
     <!-- Footer -->
     <footer>
-        <div class="row">
+        <div class="row height-fix">
             <div class="footer col-2">
-                <div class="footer-icon"></div>
+                <a href="#page-top"><div class="footer-icon"></div></a>
             </div>
             <div class="footer col-8">
                 <div class="row">
                     <div class="col-3">
                         <ul>
                             <li><h4>Pages</h4></li>
-                            <li><a href="pages/about.html">About</a></li>
-                            <li><a href="pages/members.html">Members</a></li>
-                            <li><a href="pages/events.html">Events</a></li>
+                            <li><a href="../pages/about.html">About</a></li>
+                            <li><a href="../pages/members.html">Members</a></li>
+                            <li><a href="../pages/events.html">Events</a></li>
                         </ul>
                     </div>
                     <div class="col-3">
                         <ul>
                             <li><h4>Contact</h4></li>
                             <li><a href="mailto:info@chisigma.co">Email</a></li>
+                            <li><a href="https://www.facebook.com/chisigma" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/chisigma_neu" target="_blank">Twitter</a></li>
                         </ul>
                     </div>
                 </div>

@@ -178,7 +178,7 @@ a:focus {
 }
 /* TODO :: MOVE THIS SHIT TO THE PAGES.CSS FILE */
 
-#members {
+#index-members {
     background: linear-gradient(-45deg, white 25%, transparent 25%, transparent 75%, #f4f4f4 75%, #f4f4f4) 0 0,
     linear-gradient(-45deg, #f4f4f4 25%, transparent 25%, transparent 75%, white 75%, white) 1em 1em,
     linear-gradient(45deg, #f4f4f4 17%, transparent 17%, transparent 25%, #f4f4f4 25%, #f4f4f4 36%, transparent 36%, transparent 64%, #f4f4f4 64%, #f4f4f4 75%, transparent 75%, transparent 83%, #f4f4f4 83%) 1em 1em;
@@ -511,6 +511,7 @@ footer ul {
     height: 148px;
 }
 .copyright {
+    display: block;
     text-align: center;
     font-size: 90%;
     color: #8f8f8f;
@@ -552,6 +553,12 @@ footer ul {
     }
     .copyright {
         padding-top: 0;
+    }
+    .height-fix {
+        min-height: 250px;
+    }
+    #members header {
+        margin-left: 16.6666%
     }
 }
 
