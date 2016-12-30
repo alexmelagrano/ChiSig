@@ -181,13 +181,6 @@ footer {
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
-.card-col {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-    align-content: center;
-    padding-bottom: 80px
-}
 .mdl-card {
     width: 100%;
     max-width: 400px;
@@ -199,37 +192,12 @@ footer {
     font-size: 18px;
     color: #d61313;
 }
-.mdl-card__title-text {
-    color: #ffffff;
-    padding-top: 100%
-}
 .mdl-card__supporting-text {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'CircularStd', Helvetica, sans-serif;
 }
 
-@media (min-width: 900px) {
-    .mdl-card {
-        max-width: 700px
-    }
-    .mdl-card__title {
-        max-width: 400px;
-        display: inline-block;
-        float: left;
-    }
-    .mdl-card__title-text {
-        color: #ffffff;
-    }
-    .mdl-card__content {
-        max-width: 300px;
-        display: inline-block;
-        float: right;
-    }
-    .members-fix {
-        padding-top: 200px;
-    }
-}
 
 .mdl-card {
     display: -webkit-flex;
@@ -292,7 +260,9 @@ footer {
     overflow: hidden;
     -webkit-transform-origin: 149px 48px;
     transform-origin: 149px 48px;
-    margin: 0
+    margin: 0;
+    color: #ffffff;
+    padding-top: 350px;
 }
 .mdl-card--expand {
     -webkit-flex-grow: 1;
@@ -318,6 +288,29 @@ footer {
 
 .mdl-card__actions.mdl-card--border {
     border-top: 1px solid rgba(0, 0, 0, .1)
+}
+
+
+@media (min-width: 900px) {
+    .mdl-card {
+        max-width: 700px
+    }
+    .mdl-card__title {
+        max-width: 400px;
+        display: inline-block;
+        float: left !important;
+    }
+    .mdl-card__title-text {
+        color: #ffffff;
+    }
+    .mdl-card__content {
+        max-width: 300px;
+        display: inline-block;
+        float: right !important;
+    }
+    .members-fix {
+        padding-top: 200px;
+    }
 }
 
 /*  Events Page
