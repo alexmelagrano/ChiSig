@@ -325,3 +325,97 @@ footer {
 .events-wrapper h2 {
     z-index: 100;
 }
+
+
+/* OSA Splash Page
+=========================== */
+
+.splash {
+    background-color: #fff;
+}
+.splash-page a {
+    text-decoration: none;
+
+}
+.splash-title {
+    background: #f00;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.splash-subtitle {
+    background: #FF5050;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.splash-title:after, .splash-subtitle:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+.splash-header {
+    text-align: left;
+    text-transform: lowercase;
+    color: #fff !important;
+    font-size: 80px;
+    line-height: 90px;
+
+}
+.splash-subheader {
+    text-align: left;
+    text-transform: lowercase;
+    color: #fff !important;
+    font-size: 28px;
+    line-height: 32px;
+
+}
+.main-content {
+    padding-top: 30px;
+}
+.info-card {
+    max-width: 540px;
+    background-color: #fdfdfd;
+    -webkit-box-shadow: 5px 5px 40px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 5px 5px 40px -1px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 40px -1px rgba(0,0,0,0.25);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 90px auto 0;
+    color: #6f6f6f !important;
+}
+.info-card p {
+    font-size: 22px !important;
+    line-height: 26px !important;
+}
+.info-card h4 {
+    font-size: 22px;
+}
+.info-card h5 {
+    color: #f00;
+    font-size: 22px;
+}
+.info-card ul {
+    list-style: circle;
+    padding: 10px;
+    max-width: 420px;
+    margin: 0 auto;
+}
+.info-card li {
+    text-align: left;
+    font-size: 18px;
+    font-family: "CircularStd", Helvetical, sans-serif;
+}
+.info-card .btn {
+    text-decoration: none !important;
+}
